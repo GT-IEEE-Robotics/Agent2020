@@ -1,0 +1,10 @@
+blocks:
+  - x: 1
+    y: 2
+    digit: 3
+  - x: 3
+    y: 2
+    digit: 1
+  - x: 5
+    y: 2
+    digit: 4
