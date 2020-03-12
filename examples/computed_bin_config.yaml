@@ -20,7 +20,7 @@ blocks:
   - bin: 7
     offset: 0.07
   - bin: 2
-    offset: 0.12000000000000001
+    offset: 0.12
   - bin: 10
     offset: 0.02
   - bin: 8
@@ -28,9 +28,9 @@ blocks:
   - bin: 3
     offset: 0.02
   - bin: 8
-    offset: 0.12000000000000001
+    offset: 0.12
   - bin: 7
-    offset: 0.12000000000000001
+    offset: 0.12
   - bin: 9
     offset: 0.07
   - bin: 7
@@ -42,9 +42,9 @@ blocks:
   - bin: 4
     offset: 0.07
   - bin: 9
-    offset: 0.12000000000000001
+    offset: 0.12
   - bin: 4
-    offset: 0.12000000000000001
+    offset: 0.12
   - bin: 5
     offset: 0.07
   - bin: 11
