@@ -12,8 +12,8 @@
 
 # CONFIGURATION: ----------
 ROUTE          = [0, 7, 6, 1, 6, 2, 8, 9, 4, 2, 7, 2, 10, 8, 3, 8, 7, 9, 7, 10, 5, 4, 9, 4, 5, 11][1:]
-OFFSET_INITIAL = .02
-OFFSET_STEP    = .05
+OFFSET_INITIAL = .03
+OFFSET_STEP    = .09
 OFFSET_END     = 0      # Nothing now; may be useful later
 
 # PREPROCESSING: ----------
@@ -28,8 +28,8 @@ for b in ROUTE:
     # We may get an invalid index for the end
     try:
         # Recall that bins are one indexed
-        print(f"    offset: {place_offs[b-1] }")
+        print(f"    offset: {place_offs[b-1]:.3f}")
         place_offs[b-1] += OFFSET_STEP
     except IndexError:
-        print(f"    offset: {OFFSET_END}")
+        print(f"    offset: {OFFSET_END:.3f}")
         break
